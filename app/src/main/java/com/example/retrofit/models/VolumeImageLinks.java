@@ -1,4 +1,7 @@
-package com.example.retrofit;
+package com.example.retrofit.models;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 
 public class VolumeImageLinks {
     @SerializedName("smallThumbnail")

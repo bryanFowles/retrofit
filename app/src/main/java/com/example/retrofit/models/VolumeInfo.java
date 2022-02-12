@@ -1,4 +1,9 @@
-package com.example.retrofit;
+package com.example.retrofit.models;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+import java.util.List;
 
 public class VolumeInfo {
     @SerializedName("title")

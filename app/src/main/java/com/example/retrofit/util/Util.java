@@ -1,8 +1,8 @@
-package com.example.retrofit;
+package com.example.retrofit.util;
 
 import java.util.List;
 
-public static class Util {
+public class Util {
     public String StringJoin(List<String> stringList, String delimeter) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < stringList.size(); i++) {
